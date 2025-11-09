@@ -37,5 +37,3 @@ Once you are in the correct folder, you can run the Python script. Type python f
 `python astar_pathfinder.py`
 
 Enjoy!
-
----
