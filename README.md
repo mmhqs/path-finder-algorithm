@@ -1,5 +1,7 @@
-# Path finder algorithm
-This repo presents a Python implementation of the algorithm to find a the smallest path in a given labyrinth. 
+# Maze path finder algorithm
+This repo presents a Python implementation of the algorithm to find the shortest path in a given maze. 
+
+<img src="docs/images/labyrinth.PNG" alt="Maze" width="300">
 
 [1. Understanding the algorithm](#understanding-the-algorithm)
 
