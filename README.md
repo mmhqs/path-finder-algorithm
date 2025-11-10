@@ -36,26 +36,6 @@ Once you are in the correct folder, you can run the Python script. Type python f
 
 `python astar_pathfinder.py`
 
-**Perfeito!** Agora o algoritmo está funcionando corretamente com movimentos diagonais. O resultado mostra:
-
-- ✅ **20 passos** (vs 191 anteriormente) - **90% de redução!**
-- ✅ **19 movimentos diagonais** - está usando predominantemente diagonais
-- ✅ **Custo 26.870** - menor que seria com apenas movimentos cardinais
-- ✅ **Caminho ideal**: linha reta diagonal de (0,0) até (19,19)
-
-## 📊 Análise do Resultado
-
-**Cálculo verificado:**
-- 19 movimentos diagonais × √2 ≈ 19 × 1.414 = 26.866
-- 0 movimentos cardinais × 1 = 0
-- **Total: 26.866** (próximo dos 26.870 calculados)
-
-## 🎯 Versão Final do README
-
-Aqui está a seção final do README em inglês:
-
----
-
 ## 🧩 Extra Feature: Diagonal Movement
 
 In addition to the basic A* algorithm implementation, we developed an extended version that allows the robot to move in diagonal directions, with a movement cost of √2.
